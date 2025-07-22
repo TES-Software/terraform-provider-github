@@ -1,10 +1,11 @@
 name: Add PRs and issues to Octokit org project
 
-on:
-  issues:
-    types: [reopened, opened]
-  pull_request_target:
-    types: [reopened, opened]
+# gpick disabled this workflow because this forked repo is not using this project
+#on:
+#  issues:
+#    types: [reopened, opened]
+#  pull_request_target:
+#    types: [reopened, opened]
 
 jobs:
   add-to-project:
